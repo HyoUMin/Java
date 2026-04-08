@@ -30,4 +30,44 @@ public class class_basic {
     void append_model_name(String model_name) {
         this.model_name += model_name;
     }
+
+    // Getter  & Setter
+    String get_moduel_name(){
+        return model_name;
+    }
+    void set_model_name(String model_name){
+        this.model_name = model_name;
+    }
+
+    String get_resolution(){
+        if (resolution == null || resolution.isEmpty()){ // isEmpty() "" 빈문자열일 경우 True
+            return "판매자에게 문의하세요";
+        }
+        return resolution;
+    }
+
+    void set_resolution(String resolution){
+        this.resolution = resolution;
+    }
+
+    int get_price(){
+        return price;
+    }
+
+    void set_price(int price){
+        if (price < 100000){
+            this.price = 100000;
+        }
+        else {
+            this.price = price;
+        }
+    }
+
+    String get_color(){
+        return color;
+    }
+
+    void set_color(String color){
+        this.color = color;
+    }
 }
