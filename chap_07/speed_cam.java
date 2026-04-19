@@ -25,4 +25,9 @@ public class speed_cam extends camera{ // 자식클래스로 사용할거임
     public void recognize_license_plate() {
         System.out.println("차량 번호를 인식합니다.");
     }
+
+    public void take_picture() {
+        // 사진 촬영
+        System.out.println("차량 사진을 촬영합니다.");
+    }
 }
