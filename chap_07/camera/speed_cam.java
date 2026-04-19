@@ -1,4 +1,4 @@
-package chap_07;
+package chap_07.camera;
 
 public class speed_cam extends camera{ // 자식클래스로 사용할거임
     public String name;
