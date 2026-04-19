@@ -1,6 +1,6 @@
 package chap_07.camera;
 
-public class camera{ // 부모 클래스로 사용할거임.
+public class camera{ // 부모 클래스로 사용할거임. 
     public String name;
 
     public camera() {
